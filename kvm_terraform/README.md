@@ -65,7 +65,7 @@ Terraform cria e gerencia recursos em diversos serviços e plataformas por meio 
 - **Provider**: plugin que interage com APIs de serviços e seus recursos
 - **Module**: Diretório com templates Terraform contendo configurações definidas
 - **State**: Consiste em informação em cache sobre a infraestrutura gerenciada por Terraform
-- **Resources**: "Infrastrusture objects" (por exemplo: redes virtuais, instâncias de compute) que são usados na configuração e gerenciamento da infraestrutura.
+- **Resources**: "Infrastructure objects" (por exemplo: redes virtuais, instâncias de compute) que são usados na configuração e gerenciamento da infraestrutura.
 
 ### Lifecycle
 1. `terraform init`
@@ -133,5 +133,6 @@ Com esses IPs será possível acessar as máquinas virtuais via ssh com a chave 
 
 # Referências
 - [Repositório Climatica VM Setup](https://github.com/igorkso/climatica-vm-setup)
+  
 *Agradecimentos a Igor do Suporte do LSD*
 
